@@ -1,0 +1,7 @@
+string=input("Please enter a string: ") #get user input and save in a variable
+string1=' ' #create a blank string
+i=len(string)-1 #count the length of the string
+while(i>=0): #while you cycle through the length of the string
+    string1=string1+string[i] #go though the string backwards by starting at the end of the string and decrementing your counter after each letter you read
+    i=i-1
+print("\nReversed String: ",string1) #print the result
